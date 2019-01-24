@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(210, 166, 140);
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.logo img{
+    width: 160px;
+    height: 165px;
+    float: left;
+    top: 0px;
+}
+.logo h1{
+    font-family: 'Orator Std';
+    position: relative;
+    top: 18px;
+    left: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 2 0 10px;
+    letter-spacing: 1px;
+    
+}
+.logo h2{
+    position: relative;
+    font-size: 22px;
+    left: 17px;
+    font-family:'Orator Std';
+     letter-spacing: 1px;
+}
+.container{
+    width:960px;
+}
+  .navbar-default{
+      top: 55px;
+      /* border-color: black; */
+
+  }

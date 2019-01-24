@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Training & Placement Cell Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="formSubmission.css" />
+    <script src="tnp.js"></script>
+</head>
+
+<body>
+ <div class="container">
+      <!-- all your great content here -->
+    
+
+	<header role="banner">	
+		<div class="site-header" style="padding-top:0; margin-top:0;">
+				<table>
+				<tr>
+				<td>
+				<div class="logo" >
+					<a href="http://www.nits.ac.in/tnp/index" title="Training and Placement Home" rel="home">
+					<img src="NIT_Silchar_logo.png" height="150" width="150" alt="logo">
+					</a>
+				</div>
+				</td>
+				<td>
+				<div class="title" >
+					<h1 style"float:center; "><em style="font-style:normal; letter-spacing: 2px; font-family: Arial, Helvetica, sans-serif;"><a href="http://www.nits.ac.in/tnp/index" style="color:black;" title="Training and Placement Home" rel="home">TRAINING AND PLACEMENT</a></h1>
+					<small><em style="font-style:normal; font-family: Arial, Helvetica, sans-serif; font-size:15px"><a href="http://www.nits.ac.in/" style="color:black;" title="Training and Placement Home" rel="home">&nbsp;National Institute of Technology Silchar</a></em></small>
+				</div>
+				</td>
+				</tr>
+				</table
+		</div>
+	</header>	
+
+   <div class="form">
+   
+    <form id="signup" >
+
+        <div class="header">
+        
+            <h3>Your Details</h3>
+            <p>fill out this form</p>
+            
+     
+            <ol id="tnpdata">
+          
+              
+            </ol> 
+           
+          
+        </div>
+        
+        <div class="sep"></div>
+        <div class="alert">Your Details Has Been Submitted, Thank You !</div>
+        <div class="inputs" >
+       
+	    <p>
+            <input type="text" placeholder="Name" id="name" autofocus required/>
+            <span style="display:inline-block; width:50px;"></span>
+            <input type="text" placeholder="Scholar Id" id="scholarid"  required/>
+        </p>  
+        <p>		
+            <input type="email" placeholder="E-mail" id="email" autofocus required />
+            <span style="display:inline-block; width:50px;"></span>
+            <input type="text" placeholder="Branch" id="branch" required/>
+		</p>
+        <p>		
+			<input type="text" placeholder="Mobile No" id="phone" autofocus  required/>
+            <span style="display:inline-block; width:50px;"></span>
+            <input type="text" placeholder="Organisation" id="organisation" required/>
+        </p> 
+        <p>		
+			<input type="text" placeholder="CTC Offered" id="ctc" autofocus  required/>
+            <span style="display:inline-block; width:50px;"></span>
+            <input type="text" placeholder="Test Platform" id="testP" required/>
+        </p>
+		<P>
+            <label><em style="font-style:normal; color:black; font-family: Arial, Helvetica, sans-serif; font-size:15px">Interview Experience</label>
+            <textarea name="message" id="interviewExp" style="width:98%" rows="20" placeholder="in less than 500 words.." cols="100%px"  required></textarea>
+        </p>		
+          <button type="submit">Submit</button>
+        
+      </div>
+
+    </form>
+
+  
+
+    </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script src="formSubmission.js"></script>
+
+
+
+</body>
+</html>
